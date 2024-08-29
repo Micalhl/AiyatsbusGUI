@@ -1,5 +1,3 @@
-import io.izzel.taboolib.gradle.BUKKIT
-import io.izzel.taboolib.gradle.UNIVERSAL
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
@@ -12,6 +10,7 @@ taboolib {
     env {
         // 安装模块
         install(
+            "bukkit-ui",
             "minecraft-chat",
             "basic-configuration",
             "minecraft-i18n",
