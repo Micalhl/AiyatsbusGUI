@@ -13,6 +13,6 @@ import taboolib.common.platform.function.info
 object AiyatsbusGUI : Plugin() {
 
     override fun onEnable() {
-        info("Successfully running ExamplePlugin!parrotx")
+        info("Successfully running ExamplePlugin!")
     }
 }
