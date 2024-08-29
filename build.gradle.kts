@@ -11,6 +11,10 @@ taboolib {
         // 安装模块
         install(
             "bukkit-ui",
+            "bukkit-util",
+            "bukkit-xseries",
+            "bukkit-xseries-item",
+            "bukkit-xseries-skull",
             "minecraft-chat",
             "basic-configuration",
             "minecraft-i18n",
@@ -30,8 +34,9 @@ repositories {
 }
 
 dependencies {
+    compileOnly("ink.ptms.core:v11605:11605")
     compileOnly("ink.ptms.core:v12004:12004:mapped")
-    compileOnly("ink.ptms.core:v12004:12004:universal")
+    compileOnly("ink.ptms.core:v12101:12101:mapped")
     compileOnly(kotlin("stdlib"))
     compileOnly(fileTree("libs"))
 }
